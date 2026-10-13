@@ -1,0 +1,20 @@
+data/*.sqlite3
+__pycache__/
+data/exports/
+data/source-backups/
+data/media/
+data/profiles.json
+data/security.json
+data/security.tmp
+data/ai_chats.sqlite3*
+data/ai_config.json
+data/ai_config.tmp
+
+# All runtime records and secrets are local-only.
+/data/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+*.tmp
