@@ -64,3 +64,5 @@ description: 维护 red_note 本地小红书聊天备份与 AI 风格模拟项�
 会话更多菜单根据最长选项自动撑开（width:max-content），浮层左右内边距均为6px、选项左右内边距均为14px，采用白色圆角浮层、细边框与柔和阴影，选项纵向排列，悬停浅灰底；更新、导出、删除AI记录和删除备份均配统一线框SVG图标，删除备份的图标及文字为红色。更多按钮为三点按钮，悬停、点击和展开时背景透明，键盘焦点保留轮廓提示。
 
 English maintenance guide: [SKILL.en.md](SKILL.en.md). Both README language versions must remain synchronized.
+
+文档截图必须用demo_preview.py的独立只读虚拟服务（8770），示例姓名/DEMO标识/生成头像/模拟AI回复，不读取真实库、profiles、附件或密钥。更新界面截图时同步中英文README。

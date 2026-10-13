@@ -15,3 +15,5 @@ Deletion requires the current access password, rejects active backup jobs, prese
 Inspect callers/schema before minimal complete edits. Keep scroll anchors and handle timeout/error/contact-switch/lock/stale responses. Frontend changes need refresh; Python changes need a service restart without removing the password. Use synthetic temporary data and mock models for tests.
 
 Every feature/style/configuration change updates both READMEs, SKILL.md, this English guide, and affected Chinese/English references. Publish only on explicit authorization after inspecting actual staged files. Do not include data/, credentials, personal paths, identities, screenshots, or third-party media. Do not invent license permissions. Report validation and actual limitations.
+
+Documentation screenshots must use the isolated read-only demo_preview.py service on8770: fictional names/DEMO identifiers/generated avatars/mock AI only, with no production database, profile, media, credential reads or model calls. Update both README language versions with changed screenshots.
