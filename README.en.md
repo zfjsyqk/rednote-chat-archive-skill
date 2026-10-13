@@ -6,6 +6,16 @@ A Codex maintenance skill and companion local web application for archiving Xiao
 
 **Only records already available in the Mac client's local database can be backed up. This does not guarantee complete server history.** No private messages, credentials, avatars, screenshots, or third-party sticker assets are distributed.
 
+## Browser preview (synthetic data)
+
+These screenshots use fictional conversations, DEMO account identifiers, generated letter avatars, and mock AI replies. The preview does not read real chat databases, avatars, attachments, or API keys and never calls a model provider.
+
+![Chat viewer with fictional messages and mock AI replies](docs/screenshots/chat-view.jpg)
+
+![Conversation menu with update, export, and deletion actions](docs/screenshots/conversation-menu.jpg)
+
+Reproduce with `python3 demo_preview.py` and open http://127.0.0.1:8770/. This read-only preview rejects every POST; sending, updating, and deletion are disabled. Stop with Ctrl+C. Production service and real data are unaffected.
+
 ## Features
 
 - Add a conversation using a public account number, internal user ID, full profile URL, or profile short-link/share text. Identity resolution uses explicit fields and validated profile redirects, never nickname guessing.
